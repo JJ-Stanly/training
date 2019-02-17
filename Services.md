@@ -60,6 +60,10 @@ Ya. Everything runs in thread. Activity runs in a main Thread. By default, Servi
 **Following are some callbacks.** Not all of them are mandatory to implement.  
 1. ```onStartCommand()``` :  
    * Invoked when we call method ```startService()``` to start a service.
+   * should return any of the following integer values to indicate what system  should do about services in case a service gets killed:
+     * START_NOT_STICKY:
+     * START_STICKY:
+     * START_REDELIVER_INTENT:
 
 
 2. ```onBind()``` :  
@@ -118,3 +122,11 @@ Ya. Everything runs in thread. Activity runs in a main Thread. By default, Servi
 * Extend ```IntentService```
 * provide a constructor.
 * implement ```onHandleIntent()```.
+
+
+</br>
+</br>
+</br>
+
+## References
+1. Services : [Android developer portal](https://developer.android.com/guide/components/services#java)
