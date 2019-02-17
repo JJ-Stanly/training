@@ -28,3 +28,8 @@
   ```git
     git push -u origin 
   ```
+
+* cloning a project
+  ```git
+    git clone <url>
+  ```
