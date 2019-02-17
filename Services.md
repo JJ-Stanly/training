@@ -33,6 +33,7 @@ We should create a new thread dedicated for services and ANR may be thrown frequ
 </br>
 
 **Do we choose a **THREAD** or **SERVICE** to do something? Both runs in background, right?**
+
 |Thread|Service|
 |:--|:--|
 |If we want **UI interaction** while doing a task.|If we want no UI interaction|
